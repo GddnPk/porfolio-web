@@ -30,7 +30,7 @@ export default function Navbar() {
 			}`}
 		>
 			{/* Logo */}
-			<div className='font-bold text-2xl'>JMHG - Portfolio</div>
+			<div className='font-bold text-2xl'>GiddonPk - Portfolio</div>
 
 			{/* Menú Desktop */}
 			<div className='space-x-6 hidden md:flex'>
@@ -45,6 +45,9 @@ export default function Navbar() {
 				</a>
 				<a href='#projects' className='hover:text-cyan-500 transition'>
 					Proyectos
+				</a>
+				<a href='#design' className='hover:text-cyan-500 transition'>
+					Diseño
 				</a>
 				<a href='#contact' className='hover:text-cyan-500 transition'>
 					Contacto

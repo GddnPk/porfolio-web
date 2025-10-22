@@ -4,14 +4,14 @@ import SkillCard from "../components/SkillCard";
 import ExperienceCard from "../components/ExperienceCard";
 import ProjectCard from "../components/ProjectCard";
 import ContactSection from "../components/ContactSection";
+import DesignCard from "../components/DesingCard";
 
 // Datos
 import { skills } from "../data/skills";
 import { experience } from "../data/experience";
 import { projects } from "../data/projects";
 
-import { Code2, Briefcase, FolderOpen, Sparkles } from "lucide-react";
-
+import { Code2, Briefcase, FolderOpen, BrushCleaning } from "lucide-react";
 
 export default function Home() {
 	return (
@@ -46,7 +46,7 @@ export default function Home() {
 			</section>
 
 			{/* Proyectos */}
-			<section id='projects' className='py-20 px-4 md:px-0 mx-auto'>
+			<section id='projects' className='py-20 px-4 md:px-0 mx-auto border-b-1'>
 				<h2 className='flex items-center justify-center gap-2 text-3xl font-bold text-center mb-12'>
 					<FolderOpen className='w-8 h-8 text-green-400' />
 					Proyectos
@@ -55,6 +55,25 @@ export default function Home() {
 					{projects.map((project, i) => (
 						<ProjectCard key={i} project={project} />
 					))}
+				</div>
+			</section>
+
+			{/* Diseños */}
+			<section id='design' className='py-20 px-4 md:px-0 mx-auto border-b border-gray-800'>
+				<h2 className='flex items-center justify-center gap-3 text-3xl font-bold text-center mb-12'>
+					<BrushCleaning className='w-8 h-8 text-orange-400' />
+					Diseño Gráfico
+				</h2>
+
+				<div className='grid grid-cols-1 mb-30 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-10 md:m-20'>
+					<DesignCard src='/public/escarabajo.png' alt='Ilustracion creada con Indesing' />
+					<DesignCard src='/public/caratula.png' alt='Ilustración creada con Photoshop' />
+					<DesignCard src='/public/mundo.png' alt='Ilustración creada con Photoshop' />
+					<DesignCard src='/public/pagina1.png' alt='Catálogo de muebles' />
+					<DesignCard src='/public/sillas.png' alt='Catálogo de muebles' />
+					<DesignCard src='/public/sillas2.png' alt='Catálogo de muebles' />
+					<DesignCard src='/public/movil1.png' alt='App móvil' />
+					<DesignCard src='/public/movil3.png' alt='App móvil' />
 				</div>
 			</section>
 

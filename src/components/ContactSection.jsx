@@ -10,7 +10,7 @@ export default function ContactSection() {
 		<section id='contact' className='py-20 bg-gray-900 text-white text-center border-t border-white'>
 			<h2 className='flex items-center justify-center gap-3 text-3xl font-bold mb-6'>
 				<Send className='w-8 h-8 text-pink-400' />
-				Contacto
+				Contacto | Enlaces
 			</h2>
 
 			<p className='mb-2 flex items-center justify-center gap-2'>
