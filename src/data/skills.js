@@ -15,4 +15,6 @@ export const skills = [
 	{ name: "Illustrator", level: "Avanzado", category: "diseño" },
 	{ name: "Photoshop", level: "Avanzado", category: "diseño" },
 	{ name: "Figma", level: "Avanzado", category: "diseño" },
+	{ name: "CoreDraw", level: "Avanzado", category: "diseño" },
+
 ];
