@@ -19,7 +19,7 @@ export const experience = [
 		company: "Xprint",
 		date: "Julio 2025 – Octubre 2025",
 		description:
-			"Diseño de cartelería, camisetas, logos.",
+			"Trabajé en una copistería con enfoque en diseño gráfico y producción de material publicitario. Atendía clientes en fotocopias, impresión de fotografías y asesoramiento de diseño. Diseñé carteles publicitarios, tarjetas de visita, logos, etiquetas y camisetas utilizando CorelDRAW. Colaboré en la creación de material corporativo y rotulación, manteniendo coherencia visual y calidad de impresión.",
 	},
 	{
 		role: "Desarrollador Web y Diseñador Gráfico",
