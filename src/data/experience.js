@@ -15,10 +15,18 @@ export const experience = [
 			"Pre-impresión de materiales gráficos y etiquetas comerciales. Maquetación completa de revistas con Adobe InDesign. Gestión de procesos de impresión, incluyendo troqueles, materiales y calibración de tintas.",
 	},
 	{
+		role: "Diseñador Gráfico",
+		company: "Xprint",
+		date: "Julio 2025 – Octubre 2025",
+		description:
+			"Diseño de cartelería, camisetas, logos.",
+	},
+	{
 		role: "Desarrollador Web y Diseñador Gráfico",
 		company: "Proyectos Personales / Freelance",
 		date: "2021 – 2025",
 		description:
 			"Desarrollo del sistema web Inventar.io, un gestor de inventarios multi-almacén construido con Laravel, React, Inertia.js y MySQL. Diseño de interfaces intuitivas, consumo de APIs REST y desarrollo backend con autenticación Laravel. Creación de proyectos de diseño editorial como revistas, catálogos y material comercial en Adobe InDesign y Photoshop.",
 	},
+
 ];

@@ -11,10 +11,10 @@ export default function Navbar() {
 		const handleScroll = () => {
 			if (window.scrollY > lastScrollY) {
 				setVisible(false);
-				setOpen(false)
+				setOpen(false);
 			} else {
 				setVisible(true);
-				setOpen(false)
+				setOpen(false);
 			}
 			setLastScrollY(window.scrollY);
 		};
@@ -85,12 +85,14 @@ export default function Navbar() {
 					<a href='#projects' onClick={() => setOpen(false)} className='hover:text-cyan-500 transition'>
 						Proyectos
 					</a>
+					<a href='#design' className='hover:text-cyan-500 transition'>
+						Diseño
+					</a>
 					<a href='#contact' onClick={() => setOpen(false)} className='hover:text-cyan-500 transition'>
 						Contacto
 					</a>
 				</div>
 			</div>
-
 		</nav>
 	);
 }

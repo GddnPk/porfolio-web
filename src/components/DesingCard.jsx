@@ -1,7 +1,7 @@
 // components/DesignCard.jsx
 export default function DesignCard({ src, alt }) {
 	return (
-		<div>
+		<div className="mb-20">
 			<h1 className="text-xl mb-5">{alt}</h1>
 			<img
 				src={src}
