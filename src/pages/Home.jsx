@@ -66,14 +66,14 @@ export default function Home() {
 				</h2>
 
 				<div className='grid grid-cols-1 mb-30 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 m-10 md:m-20'>
-					<DesignCard src='/public/escarabajo.png' alt='Ilustracion creada con Indesing' />
-					<DesignCard src='/public/caratula.png' alt='Ilustración creada con Photoshop' />
-					<DesignCard src='/public/mundo.png' alt='Ilustración creada con Photoshop' />
-					<DesignCard src='/public/pagina1.png' alt='Catálogo de muebles' />
-					<DesignCard src='/public/sillas.png' alt='Catálogo de muebles' />
-					<DesignCard src='/public/sillas2.png' alt='Catálogo de muebles' />
-					<DesignCard src='/public/movil1.png' alt='App móvil' />
-					<DesignCard src='/public/movil3.png' alt='App móvil' />
+					<DesignCard src='/escarabajo.png' alt='Ilustracion creada con Indesing' />
+					<DesignCard src='/caratula.png' alt='Ilustración creada con Photoshop' />
+					<DesignCard src='/mundo.png' alt='Ilustración creada con Photoshop' />
+					<DesignCard src='/pagina1.png' alt='Catálogo de muebles' />
+					<DesignCard src='/sillas.png' alt='Catálogo de muebles' />
+					<DesignCard src='/sillas2.png' alt='Catálogo de muebles' />
+					<DesignCard src='/movil1.png' alt='App móvil' />
+					<DesignCard src='/movil3.png' alt='App móvil' />
 				</div>
 			</section>
 
