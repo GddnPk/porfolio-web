@@ -25,9 +25,9 @@ export default function HomeHero() {
 				<div className='mb-5 mt-5 md:mt-0 relative md:mb-0 animate-fadeIn'>
 					<div className='flex items-center justify-center w-48 h-48 md:w-70 md:h-70 rounded-full overflow-hidden mx-auto md:mx-0 shadow-2xl transform hover:scale-105 transition duration-500 grayscale hover:grayscale-0'>
 						<img
-							src='https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/252.png'
+							src='/perfil.jpeg'
 							alt='Treecko'
-							className="mx-auto w-full h-full"
+							className="mx-auto w-full h-full object-cover"
 						/>
 					</div>
 				</div>
