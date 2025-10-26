@@ -15,6 +15,6 @@ export const projects = [
 	{
 		name: "Gestión de Muestras clínicas",
 		description: "Aplicación web para gestión de muestras clínicas desarrollada con Laravel y React.",
-		url: "https://github.com/tuusuario/task-manager",
+		url: "https://github.com/GddnPk/AnatomiaPatologica",
 	},
 ];
